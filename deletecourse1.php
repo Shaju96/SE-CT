@@ -1,4 +1,4 @@
-<?php
+ naima delet the file<?php
 require_once("db_connect.php"); // Include database constants
 $connect = mysqli_connect(HOST, USER, PASS, DB) or die("Cannot connect");
 

@@ -35,7 +35,8 @@ $courses = mysqli_query($connect, "SELECT course_id, title FROM Course");
     <select name="course_id" required>
         <?php while($row = mysqli_fetch_assoc($courses)) { ?>
             <option value="<?php echo $row['course_id']; ?>">
-                <?php echo $row['course_id'] . " - " . $row['title']; ?>
+		<?php echo $row['course_id'] . " - " . $row['title'];
+echo "hello world"; ?>
             </option>
         <?php } ?>
     </select>
