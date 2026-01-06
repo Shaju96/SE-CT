@@ -1,4 +1,5 @@
-<?php
+i 
+ edit by rubayath<?php
 require_once("db_connect.php");
 $connect = mysqli_connect(HOST, USER, PASS, DB) or die("Cannot connect");
 
