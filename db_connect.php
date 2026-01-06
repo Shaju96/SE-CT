@@ -1,4 +1,4 @@
-<?php
+edit by sajedur rahman for CT<?php
 define("HOST", "localhost");
 define("USER", "root");
 define("PASS", "");
