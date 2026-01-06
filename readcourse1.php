@@ -21,6 +21,11 @@ $result=mysqli_query($connect,$query) or die ("query failed");
 
         <?php } ?>
 
+        <?php
+
+        echo "reading the course";
+        ?>
+
         
 
 
